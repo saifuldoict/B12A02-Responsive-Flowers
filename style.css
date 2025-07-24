@@ -1,352 +1,357 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: sans-serif;
-    max-width: 1280px;
-    background-color: #F5F8FF;
-    margin: auto;
-
+body {
+  font-family: sans-serif;
+  max-width: 1280px;
+  background-color: #f5f8ff;
+  margin: auto;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
-.navbar ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.navbar ul li{
-    display: inline;
-    margin: 0 10px;
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
-.navbar ul li a{
-    text-decoration: none;
-    color: #333;
-    
-}
-.shoping_cart{
-    display: flex;
-    margin-right: 5px;
-}
-.logo{
-    width: 100px;
-}
-.home{
-    font-weight: bold;
-}
-.shop{
-    color: rgb(190, 179, 179);
+.navbar ul li {
+  display: inline;
+  margin: 0 10px;
 }
 
-.hero_section{
-    width: 100%;
-    display: flex;
-    margin-top: 100px;
-    justify-content: center;
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.shoping_cart {
+  display: flex;
+  margin-right: 5px;
+}
+.logo {
+  width: 100px;
+}
+.home {
+  font-weight: bold;
+}
+.shop {
+  color: rgb(190, 179, 179);
 }
 
-.hero_text_head{
-    color: #333;
-    font-size: 60px;
+.hero_section {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
-.Fresh{
-    color: #E95A08;
+.hero_text_head {
+  color: #333;
+  font-size: 60px;
 }
-.hero-text{
-    color: #A8AAAF;
-    max-width: 40%;
+.Fresh {
+  color: #e95a08;
 }
-.hero-image{
-    max-width: 60%;
-}
-
-.plants{
-    text-align: center;
-    font-size: 50px;
-}
-.plants_text{
-    color: #A8AAAF;
-    text-align: center;
-    font-size: 20px;
-}
-
-.card_div{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 2px;
-}
-.card{
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    
-}
-.card_text{
-    font-size: 15px;
-}
-.price{
-    font-size: 20px;
-    font-weight: bold;
-}
-.btn{
-    display: block;
-    width: 85%;
-    font-size: 15px;
-    background-color: #E95A08;
-    border: none;
-    color: white;
-    padding: 15px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-
-}
-
-.plants_section{
-    padding: 40px;
-    margin-top: 100px;
-    display: flex;
-    gap: 50px;
-}
-.plants_image{
-    width: 500px;
-    position: relative;
+.hero-text {
+  margin-top: 180px;
+  color: #a8aaaf;
+  
 }
 
 
-.badge{
-    width: 200px;
-    position: absolute;
-    margin-left: 370px;
-    margin-top: -80px;
-    
+.plants {
+  text-align: center;
+  font-size: 50px;
 }
-.plants_heading{
-    color: black;
-    text-align: start;
-    font-size: 40px;
-}
-.plants_text{
-    margin: auto;
-}
-.plants_text li{
-    padding: 10px;
-    list-style: none;
-    margin: 10px;
-    text-align: left;
+.plants_text {
+  color: #a8aaaf;
+  text-align: center;
+  font-size: 20px;
 }
 
-
-.Latest_Deals{
-    text-align: center;
-    justify-content: center;
-    
+.card_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
 }
-.Latest_Deals_heading{
-    font-size: 40px;
-    margin: 5px;
+.card {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
-.Latest_Deals_text{
-    color: #A8AAAF;
-    font-size: 15px;
-    margin-bottom: 50px;
+.card_text {
+  font-size: 15px;
 }
-
-.Latest_Deals_image{
-    
-    border-radius: 20px;
-    display: flex;
-    margin: 20px;
+.price {
+  font-size: 20px;
+  font-weight: bold;
 }
-.Latest_Deals_image_1, .Latest_Deals_image_2{
-     position: relative;
-     border-radius: 10px;
-     margin: 5px;
-}
-.Latest_Deals_image_section_1, .Latest_Deals_image_section_2 {
-    position: absolute;
-    top: 70px;
-    right: 60px;
-    color: white;
-    
-    
+.btn {
+  display: block;
+  width: 85%;
+  font-size: 15px;
+  background-color: #e95a08;
+  border: none;
+  color: white;
+  padding: 15px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
-.Latest_Deals_big_image{
-    position: relative;
-     border-radius: 10px;
-     margin: 5px;
+.plants_section {
+  padding: 40px;
+  margin-top: 100px;
+  display: flex;
+  gap: 50px;
 }
-.Latest_Deals_image_section_3{
-   position: absolute;
-    top: 200px;
-    right: 250px;
-    color: white; 
-}
-
-
-.shop_btn{
-    color: white;
-    background: none;
-    border: none;
-    border-bottom: 1px solid wheat;
-    font-size: 20px;
+.plants_image {
+  width: 500px;
+  position: relative;
 }
 
-.Join_Section{
-    background-image: url(Assets/news-letter-bg.png);
-    height: 400px;
+.badge {
+  width: 200px;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: -80px;
+}
+.plants_heading {
+  color: black;
+  text-align: start;
+  font-size: 40px;
+}
+.plants_text {
+  margin: auto;
+}
+.plants_text li {
+  padding: 10px;
+  list-style: none;
+  margin: 10px;
+  text-align: left;
 }
 
-.Join_Section_text{
-    color: white;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
+.Latest_Deals {
+  text-align: center;
+  justify-content: center;
+}
+.Latest_Deals_heading {
+  font-size: 40px;
+  margin: 5px;
+}
+.Latest_Deals_text {
+  color: #a8aaaf;
+  font-size: 15px;
+  margin-bottom: 50px;
 }
 
-.input{
-    justify-content: center;
-    align-items: center;
+.Latest_Deals_image {
+  border-radius: 20px;
+  display: flex;
+  margin: 20px;
+}
+.Latest_Deals_image_1,
+.Latest_Deals_image_2 {
+  position: relative;
+  border-radius: 10px;
+  margin: 5px;
+}
+.Latest_Deals_image_section_1,
+.Latest_Deals_image_section_2 {
+  position: absolute;
+  top: 70px;
+  right: 60px;
+  color: white;
 }
 
-
-.footer{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.Latest_Deals_big_image {
+  position: relative;
+  border-radius: 10px;
+  margin: 5px;
+}
+.Latest_Deals_image_section_3 {
+  position: absolute;
+  top: 200px;
+  right: 250px;
+  color: white;
 }
 
-.footer_text{
-    color: #A8AAAF;
+.shop_btn {
+  color: white;
+  background: none;
+  border: none;
+  border-bottom: 1px solid wheat;
+  font-size: 20px;
 }
 
-.footer ul{
-    list-style: none;
+.Join_Section {
+  background-image: url(Assets/news-letter-bg.png);
+  height: 400px;
 }
 
-.footer ul li{
-    display: flex;
-    margin: 10px 10px;
-    color: #A8AAAF;
-    font-size: 15px;
+.Join_Section_text {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
 }
 
+.input {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_text {
+  color: #a8aaaf;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  display: flex;
+  margin: 10px 10px;
+  color: #a8aaaf;
+  font-size: 15px;
+}
 
 @media (max-width: 768px) {
   .navbar ul {
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
+  .navbar ul li{
+    display: none;
+  }
+  .cart{
+    padding: 10px;
+  }
+  
 
   .hero_section {
+    display: flex;
     flex-direction: column-reverse;
-    text-align: center;
     justify-content: center;
-   
+    text-align: center;
+    margin-bottom: 0;
     
   }
   .hero_text_head{
-   font-size: 30px;
-   
+    text-align: start;
+    font-size: 30px;
+    margin-top: -155px;
   }
-  .plants{
+  .hero_text{
+    text-align: start;
+    font-size: 15px;
+    width: 100%;
+
+  }
+  .plants {
     font-size: 30px;
   }
-  .plants_text{
-    font-size: 10px;
+  .plants_text {
+    font-size: 15px;
   }
 
-  .card_div{
+  .card_div {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1px;
-}
-.card_text{
+  }
+  .card_text {
     font-size: 10px;
-}
-.price{
+  }
+  .price {
     font-size: 15px;
     font-weight: bold;
-}
-.card img{
+  }
+  .card img {
     width: 200px;
-}
-.btn{
-   display: block;
-    width: 95%;
+  }
+  .btn {
+    display: block;
+    width: 85%;
     font-size: 10px;
     padding: 10px 5px;
     display: inline-block;
-    font-size: 10px; 
-}
-.plants_section{
-    margin-top: 5px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .plants_section {
+    margin-top: 1px;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    
-}
-.plants_image{
-    width: 300px;
+  }
+  .plants_image {
+    width: 400px;
     position: relative;
     margin: auto;
+  }
+ 
+
+.badge {
+  display: none;
 }
-  
-.plants_heading{
+
+  .plants_heading {
     color: black;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    text-align: start;
     font-size: 20px;
-}
-.Latest_Deals_heading{
-    font-size: 25px;
-}
- .Latest_Deals_image{
-    
+  }
+  .Latest_Deals_heading {
+    font-size: 35px;
+  }
+  .Latest_Deals_image {
     border-radius: 2px;
     display: flex;
     flex-direction: column;
     margin: 10px;
-}
-.Latest_Deals_big_image{
+  }
+  .Latest_Deals_big_image {
     width: 360px;
     margin: 0 auto;
+  }
+.Latest_Deals_image_section_1,
+.Latest_Deals_image_section_2 {
+  position: absolute;
+  top: 70px;
+  right: 90px;
+  color: white;
 }
-
-.Latest_Deals_image_section_3{
-   position: absolute;
-    top: 60px;
-    right: 60px;
-    color: white; 
-}
+  .Latest_Deals_image_section_3 {
+    position: absolute;
+    top: 75px;
+    right: 65px;
+    color: white;
+  }
 
   .footer {
     flex-direction: column;
     align-items: start;
     margin-left: 10px;
-   
   }
-  .footer_text{
+  .footer_text {
     font-size: 15px;
   }
-  .footer img{
+  .footer img {
     margin: 10px;
+  }
 }
-}
-
- 

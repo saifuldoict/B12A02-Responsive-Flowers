@@ -68,10 +68,22 @@ body {
   text-align: center;
   font-size: 50px;
 }
-.plants_text {
+.plants_text div{
+  margin-bottom: 20px;
   color: #a8aaaf;
   text-align: center;
+  justify-content: center;
   font-size: 20px;
+}
+.bol_parent{
+  display: flex;
+}
+.bol{
+  margin-top: 6px;
+  background-color: #a8aaaf;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
 }
 
 .card_div {
@@ -107,10 +119,10 @@ body {
 }
 
 .plants_section {
-  padding: 40px;
   margin-top: 100px;
   display: flex;
   gap: 50px;
+  margin-bottom: 20px;
 }
 .plants_image {
   width: 500px;
@@ -155,7 +167,8 @@ body {
 .Latest_Deals_image {
   border-radius: 20px;
   display: flex;
-  margin: 20px;
+  margin-left: 50px;
+  
 }
 .Latest_Deals_image_1,
 .Latest_Deals_image_2 {
@@ -172,9 +185,13 @@ body {
 }
 
 .Latest_Deals_big_image {
+  margin-top: 5px;
+  height: 410px;
+  width: 100%;
   position: relative;
   border-radius: 10px;
-  margin: 5px;
+  margin-left: 5px;
+  margin-right: 2px;
 }
 .Latest_Deals_image_section_3 {
   position: absolute;
@@ -197,17 +214,46 @@ body {
 }
 
 .Join_Section_text {
-  color: white;
+  text-align: center;
+  padding-top: 100px;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  color: white;
+  
+}
+.input-button-group {
+  margin-top: 10px;
+  margin-left: 390px;
+  display: flex;
+  width: 500px;
+  height:50px;
+  border: none;
+  overflow: hidden
 }
 
-.input {
-  justify-content: center;
-  align-items: center;
+.input-button-group input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
 }
+
+.input-button-group button {
+  padding: 10px 20px;
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.input-button-group button:hover {
+  background-color: #3730a3;
+}
+
 
 .footer {
   margin-top: 20px;
@@ -236,6 +282,9 @@ body {
     flex-direction: column;
     gap: 15px;
   }
+  .logo{
+    width: 80px;
+  }
   .navbar ul li{
     display: none;
   }
@@ -243,14 +292,16 @@ body {
     padding: 10px;
   }
   
-
   .hero_section {
+    margin-top: 0;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     text-align: center;
     margin-bottom: 0;
-    
+  }
+  .hero-image{
+    height: 350px;
   }
   .hero_text_head{
     text-align: start;
@@ -306,7 +357,6 @@ body {
     margin: auto;
   }
  
-
 .badge {
   display: none;
 }
@@ -327,7 +377,8 @@ body {
   }
   .Latest_Deals_big_image {
     width: 360px;
-    margin: 0 auto;
+    height: 210px;
+    margin-bottom:30px;
   }
 .Latest_Deals_image_section_1,
 .Latest_Deals_image_section_2 {
@@ -342,7 +393,37 @@ body {
     right: 65px;
     color: white;
   }
+.input-button-group {
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  width: 400px;
+  height:50px;
+  border: none;
+  overflow: hidden
+}
 
+.input-button-group input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-button-group button {
+  padding: 5px 10px;
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.Join_Section {
+ 
+  height: 250px;
+}
   .footer {
     flex-direction: column;
     align-items: start;

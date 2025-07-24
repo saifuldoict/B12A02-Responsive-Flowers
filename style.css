@@ -10,3 +10,14 @@ body{
     margin: auto;
 
 }
+
+
+
+
+.Join_Section{
+    background-image: url(Assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    height: 500px;
+}

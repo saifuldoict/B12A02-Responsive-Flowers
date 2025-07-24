@@ -10,6 +10,42 @@ body{
     margin: auto;
 
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #333;
+    
+}
+.shoping_cart{
+    display: flex;
+    margin-right: 5px;
+}
+.logo{
+    width: 100px;
+}
+.home{
+    font-weight: bold;
+}
+.shop{
+    color: rgb(190, 179, 179);
+}
 
 
 

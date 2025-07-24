@@ -243,6 +243,110 @@ body{
     margin: 10px 10px;
     color: #A8AAAF;
     font-size: 15px;
-
-
 }
+
+
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero_section {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+   
+    
+  }
+  .hero_text_head{
+   font-size: 30px;
+   
+  }
+  .plants{
+    font-size: 30px;
+  }
+  .plants_text{
+    font-size: 10px;
+  }
+
+  .card_div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1px;
+}
+.card_text{
+    font-size: 10px;
+}
+.price{
+    font-size: 15px;
+    font-weight: bold;
+}
+.card img{
+    width: 200px;
+}
+.btn{
+   display: block;
+    width: 95%;
+    font-size: 10px;
+    padding: 10px 5px;
+    display: inline-block;
+    font-size: 10px; 
+}
+.plants_section{
+    margin-top: 5px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+.plants_image{
+    width: 300px;
+    position: relative;
+    margin: auto;
+}
+  
+.plants_heading{
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.Latest_Deals_heading{
+    font-size: 25px;
+}
+ .Latest_Deals_image{
+    
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.Latest_Deals_big_image{
+    width: 360px;
+    margin: 0 auto;
+}
+
+.Latest_Deals_image_section_3{
+   position: absolute;
+    top: 60px;
+    right: 60px;
+    color: white; 
+}
+
+  .footer {
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10px;
+   
+  }
+  .footer_text{
+    font-size: 15px;
+  }
+  .footer img{
+    margin: 10px;
+}
+}
+
+ 

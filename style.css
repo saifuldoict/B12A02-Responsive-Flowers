@@ -373,7 +373,7 @@ body {
   }
   .plants_image {
     width: 350px;
-    margin: auto;
+    margin-left: 40px;
   }
  
 .badge {

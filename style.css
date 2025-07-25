@@ -314,8 +314,8 @@ body {
     text-align: center;
     margin-bottom: 0;
   }
-  .hero-image{
-    height: 350px;
+  .hero-image img{
+     width: 300px;
   }
   .hero_text_head{
     text-align: start;
@@ -405,18 +405,18 @@ body {
 .Latest_Deals_image_section_2 {
   position: absolute;
   top: 70px;
-  right: 90px;
+  right: 0px;
   color: white;
 }
   .Latest_Deals_image_section_3 {
     position: absolute;
     top: 75px;
-    right: 65px;
+    right: 70px;
     color: white;
   }
 .input-button-group {
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 30px;
   display: flex;
   width: 350px;
   height:40px;
@@ -442,9 +442,10 @@ body {
   transition: background-color 0.3s ease;
 }
 .Join_Section {
- 
   height: 250px;
 }
+
+
   .footer {
     flex-direction: column;
     align-items: start;

@@ -369,11 +369,12 @@ body {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin-left: -42px;
+    
   }
   .plants_image {
     width: 350px;
-    margin-right: 20px;
+
+    
   }
  
 .badge {
